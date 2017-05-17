@@ -1,5 +1,8 @@
 ---
 title: 'A Brief Summary on Neural Style Transfer'
+<script type="text/javascript"
+   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 date: 2017-05-19
 permalink: /posts/2017/05/blog-post-1/
 tags:
@@ -26,5 +29,5 @@ The opening paper [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1
     <img src="/assets/posts/2017-05-19-a-brief-summary-on-neural-style-transfer/2.png" height="50"/>
     <figcaption>Figure 2 Content Loss.</figcaption>
 </figure>
-$$\vec{p}$$
-In which $$\vec{p}$$ and $$\vec{x}$$ are the original image and the image that is generated.
+
+In which <span> $$\vec{p}$$</span> and $$\vec{x}$$ are the original image and the image that is generated.
