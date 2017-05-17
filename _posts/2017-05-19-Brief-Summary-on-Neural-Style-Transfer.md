@@ -7,7 +7,10 @@ tags:
   - Neural Style Transfer
 ---
 
-{% include helpers/image.html name="1.png" caption="Figure 1 Artistic Style Transfer. From left to right: content image, style image, transferred result." %}
+<figure>
+    <img src="/assets/posts/2017-05-19-a-brief-summary-on-neural-style-transfer/1.png"  />
+    <figcaption>Figure 1 Artistic Style Transfer. From left to right: content image, style image, transferred result.</figcaption>
+</figure>
 
 Neural Style Transfer is a fascinating yet mysterious area in computer vision. The opening paper by [Leon A. Gatys](https://arxiv.org/pdf/1508.06576.pdf) et al. was published at 2015. Since then, numerous progress has been made in this area, bringing more and more fascinating features as well as enlightenment about how and why it works. In this blog post, I would like to summary several papers on this topic to draw a brief sketch about the developments in recent years.
 
