@@ -1,6 +1,7 @@
 ---
 title: 'A Brief Summary on Neural Style Transfer'
-<script type="text/javascript" async    src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+<script type="text/javascript"
+   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
 </script>
 date: 2017-05-19
 permalink: /posts/2017/05/blog-post-1/
