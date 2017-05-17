@@ -1,5 +1,5 @@
 ---
-title: 'How to Train Fast RCNN on ImageNe'
+title: 'How to Train Fast RCNN on ImageNet'
 date: 2015-12-19
 permalink: /posts/2012/08/blog-post-1/
 tags:
