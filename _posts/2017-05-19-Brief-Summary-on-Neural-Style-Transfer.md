@@ -26,4 +26,4 @@ The opening paper [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1
     <img src="/assets/posts/2017-05-19-a-brief-summary-on-neural-style-transfer/2.png" height="200"/>
     <figcaption>Figure 1 Artistic Style Transfer. From left to right: content image, style image, transferred result.</figcaption>
 </figure>
-In which $\vec{p}$ and $\vec{x}$ are the original image and the image that is generated.
+In which $$\vec{p}$$ and $$\vec{x}$$ are the original image and the image that is generated.
