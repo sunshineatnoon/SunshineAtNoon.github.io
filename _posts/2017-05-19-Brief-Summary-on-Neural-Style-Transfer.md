@@ -1,5 +1,7 @@
 ---
 title: 'A Brief Summary on Neural Style Transfer'
+<script type="text/javascript" async    src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 date: 2017-05-19
 permalink: /posts/2017/05/blog-post-1/
 tags:
@@ -20,4 +22,10 @@ The opening paper [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1
 
 **Task.** In neural style transfer, one provides two images, a content image (left in Figure 1) and a style image (middle in Figure 1). Then the style transfer algorithm combines the style of the style image and content of the content image to generate a new image(right in Figure 1). This requires the separately capture of image content and style.
 
-**Capturing Image Content.** CNNs are known brilliant feature extractors. It captures low-level pixel information in shallow layers as well as high-level semantic information in deep layers. So to capture the image content information, it's sufficient to use the feature maps by CNNs to represent image content.
+**Capturing Image Content.** CNNs are known brilliant feature extractors. It captures low-level pixel information in shallow layers as well as high-level semantic information in deep layers. So to capture the image content information, it's sufficient to use the feature maps by CNNs to represent image content. So we can define the content loss as:
+
+<figure>
+    <img src="/assets/posts/2017-05-19-a-brief-summary-on-neural-style-transfer/2.png" height="200"/>
+    <figcaption>Figure 1 Artistic Style Transfer. From left to right: content image, style image, transferred result.</figcaption>
+</figure>
+In which $\vec{p}$ and $\vec{x}$ are the original image and the image that is generated.
