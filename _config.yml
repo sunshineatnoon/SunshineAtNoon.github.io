@@ -77,7 +77,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Xueting Li"
   avatar           : "/image/corgi.png"
   bio              : "Mainly interested in Computer Vision & Deep Learning"
   location         : "China"
@@ -174,9 +174,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
+  #portfolio:
+  #  output: true
+  #  permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
