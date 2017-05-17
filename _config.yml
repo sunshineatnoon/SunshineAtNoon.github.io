@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "SunshineAtNoon's Website"
+title                    : "Dr. Test Account"
 title_separator          : "-"
-name                     : &name "Xueting Li"
-description              : &description "Camper Diem"
-url                      : https://sunshineatnoon.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Dr. Test Account"
+description              : &description "Research scientist at Test University"
+url                      : https://getorg-testacct.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "SunshineAtNoon/sunshineatnoon.github.io"
+repository               : "getorg-testacct.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -77,12 +77,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Xueting Li"
-  avatar           : "/image/corgi.png"
-  bio              : "Mainly interested in Computer Vision & Deep Learning"
-  location         : "China"
+  name             : "Dr. Test Account"
+  avatar           : "profile.png"
+  bio              : "Research scientist at Test University, expert in all things test and account related"
+  location         : "Test, California"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : "http://scholar.google.com/this-is-a-test"
   email            :
   uri              :
   bitbucket        :
@@ -91,19 +91,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "SunshineAtNoon"
+  github           : "getorg-testacct"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "http://orcid.org/testaccount"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/XueT_Li"
+  twitter          : "testaccount-this-is-fake"
   vine             :
   weibo            :
   xing             :
@@ -220,7 +220,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-   _portfolio
+  # _portfolio
   - scope:
       path: ""
       type: portfolio
@@ -229,7 +229,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
-   _talks
+  # _talks
   - scope:
       path: ""
       type: talks
