@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * B.S. in Computer Science, Beijing University of Posts and Telecommunications, 2009~2013
-* M.S. Software Engineering, Tsinghua University, 2014
+* M.S. Software Engineering, Tsinghua University, 2013~2016
 
 Work experience
 ======
@@ -21,7 +21,7 @@ Work experience
   * Duties included: Computer Vision & Deep Learning Research
   <!---* Supervisor: C --->
 
-* 2016~2017: Intern
+* 2015~2016: Intern
   * Intel Labs
   * Duties included: Computer Vision & Video Processing Engineering
   <!---* Supervisor: C --->
