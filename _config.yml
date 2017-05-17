@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Dr. Test Account"
+title                    : "SunshineAtNoon's Website"
 title_separator          : "-"
-name                     : &name "Dr. Test Account"
-description              : &description "Research scientist at Test University"
-url                      : https://getorg-testacct.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Xueting Li"
+description              : &description "Carpe Diem"
+url                      : https://sunshineatnoon.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "getorg-testacct.github.io"
+repository               : "sunshineatnoon.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -77,10 +77,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Dr. Test Account"
+  name             : "Xueting Li"
   avatar           : "profile.png"
-  bio              : "Research scientist at Test University, expert in all things test and account related"
-  location         : "Test, California"
+  bio              : "Mainly interested in Computer Vision & Deep Learning"
+  location         : "China"
   employer         :
   googlescholar    : "http://scholar.google.com/this-is-a-test"
   email            :
@@ -91,7 +91,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "getorg-testacct"
+  github           : "SunshineAtNoon"
   google_plus      :
   keybase          :
   instagram        :
@@ -103,7 +103,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "testaccount-this-is-fake"
+  twitter          : "XueT_Li"
   vine             :
   weibo            :
   xing             :
