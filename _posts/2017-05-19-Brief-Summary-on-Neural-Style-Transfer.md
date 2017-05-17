@@ -23,7 +23,7 @@ The opening paper [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1
 **Capturing Image Content.** CNNs are known brilliant feature extractors. It captures low-level pixel information in shallow layers as well as high-level semantic information in deep layers. So to capture the image content information, it's sufficient to use the feature maps by CNNs to represent image content. So we can define the content loss as:
 
 <figure>
-    <img src="/assets/posts/2017-05-19-a-brief-summary-on-neural-style-transfer/2.png" height="50">
+    <img src="/assets/posts/2017-05-19-a-brief-summary-on-neural-style-transfer/2.png" width="50">
     <figcaption>Figure 2 Content Loss.</figcaption>
 </figure>
 
