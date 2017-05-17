@@ -78,9 +78,9 @@ analytics:
 # Site Author
 author:
   name             : "Your Sidebar Name"
-  avatar           : "corgi.png"
+  avatar           : "/image/corgi.png"
   bio              : "Mainly interested in Computer Vision & Deep Learning"
-  location         : "Location"
+  location         : "China"
   employer         :
   googlescholar    : "http://yourfullgooglescholarurl.com"
   email            :
@@ -91,7 +91,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "SunshineAtNoon"
   google_plus      :
   keybase          :
   instagram        :
@@ -103,7 +103,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "https://twitter.com/XueT_Li"
   vine             :
   weibo            :
   xing             :
@@ -221,14 +221,14 @@ defaults:
       share: true
       comments: true
   # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
+  #- scope:
+  #    path: ""
+  #    type: portfolio
+  #  values:
+  #    layout: single
+  #    author_profile: true
+  #    share: true
+  #    comment: true
   # _talks
   - scope:
       path: ""
