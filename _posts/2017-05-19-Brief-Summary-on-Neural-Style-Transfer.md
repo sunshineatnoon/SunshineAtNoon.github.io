@@ -30,9 +30,10 @@ In which $$\vec{p}$$ and $$\vec{x}$$ are the original image and the generated im
 
 $$G_{ij}^l = \sum_{k}F_{ik}^lF_{jk}^l$$
 
-Given a $C \times H \times W$ feature map. Its corresponding Gram Matrix is a $$C \times C$$ matrix, with $$C_{ij}$$ computed as the element-wise product and summation across feature map in channel $$i$$ and channel $$j$$. So it can be interpreted as the correlation between feature map $$F_i$$ and $$F_j$$.
+Given a $$C \times H \times W$$ feature map. Its corresponding Gram Matrix is a $$C \times C$$ matrix, with $$C_{ij}$$ computed as the element-wise product and summation across feature map in channel $$i$$ and channel $$j$$. So it can be interpreted as the correlation between feature map $$F_i$$ and $$F_j$$.
 
 We define the style loss between two images as a weighted sum of the mean square errors between their Gram Matrix computed in layer $$l_1, l_2, ..., l_n$$.
 
 $$E_l = \frac{1}{4N_l^2M_l^2}\sum_{i,j}(G_{ij}^l - A_{ij}^l)^2$$
-$$L_{style}(\vec{a},\vec{x}) = \sum_{l=0}{l}w_lE_l$$
+
+$$L_{style}(\vec{a},\vec{x}) = \sum_{l=0}^{l}w_lE_l$$
