@@ -6,19 +6,23 @@ tags:
   - Computer Vision
   - Neural Style Transfer
 ---
-
 <figure>
-    <img src="/assets/posts/2017-05-19-a-brief-summary-on-neural-style-transfer/1.png"  />
-    <figcaption>Figure 1 Artistic Style Transfer. From left to right: content image, style image, transferred result.</figcaption>
+    <img src="/assets/posts/2017-05-19-a-brief-summary-on-neural-style-transfer/Development.png"  />
+    <figcaption>Figure 1 A Brief Sketch about the Development of Neural Style Transfer in Recent Years.</figcaption>
 </figure>
 
-Neural Style Transfer is a fascinating yet mysterious area in computer vision. The opening paper by [Leon A. Gatys](https://arxiv.org/pdf/1508.06576.pdf) et al. was published at 2015. Since then, numerous progress has been made in this area, bringing more and more fascinating features as well as enlightenment about how and why it works. In this blog post, I would like to summary several papers on this topic to draw a brief sketch about the developments in recent years.
+Neural Style Transfer is a fascinating yet mysterious area in computer vision. The opening paper by [Leon A. Gatys](https://arxiv.org/pdf/1508.06576.pdf) et al. was published at 2015. Since then, numerous progress has been made in this area, bringing more and more fascinating features as well as enlightenment about how and why it works. In this blog post, I would like to summary several papers on this topic to draw a brief sketch about the developments in recent years as shown in Figure 1.
 
 ## Opening Paper
 
+<figure>
+    <img src="/assets/posts/2017-05-19-a-brief-summary-on-neural-style-transfer/1.png"  />
+    <figcaption>Figure 2 Artistic Style Transfer. From left to right: content image, style image, transferred result.</figcaption>
+</figure>
+
 The opening paper [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1508.06576.pdf) and [Image Style Transfer Using Convolutional Neural Networks](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf) were out at 2015. Thanks to the dramatic development on CNNs (Convolutional Neural Networks), Leon A. Gatys et al. were able to separately capture image content and style using pre-trained CNN for object recognition and transfer style from one image to the other.
 
-**Task.** In neural style transfer, one provides two images, a content image (left in Figure 1) and a style image (middle in Figure 1). Then the style transfer algorithm combines the style of the style image and content of the content image to generate a new image(right in Figure 1). This requires the separately capture of image content and style.
+**Task.** In neural style transfer, one provides two images, a content image (left in Figure 2) and a style image (middle in Figure 2). Then the style transfer algorithm combines the style of the style image and content of the content image to generate a new image(right in Figure 2). This requires the separately capture of image content and style.
 
 **Capturing Image Content.** CNNs are known as brilliant feature extractors. It captures low-level pixel information in shallow layers as well as high-level semantic information in deep layers. So to capture the image content information, it's sufficient to use the feature maps by CNNs to represent image content. Thus we define the content loss as the mean square distance between the feature maps:
 
@@ -38,6 +42,15 @@ $$E_l = \frac{1}{4N_l^2M_l^2}\sum_{i,j}(G_{ij}^l - A_{ij}^l)^2$$
 
 $$L_{style}(\vec{a},\vec{x}) = \sum_{l=0}^{l}w_lE_l$$
 
-**Training.** The first Neural Style Transfer Algorithm is characterized as an optimization problem. Starting with a noise image, one feeds this image to the pre-train VGG net and calculate the style loss and content loss between this image and the style and content image respectively, then backpropagates the gradient all the way back to this noise image to push it closer to our target image. Repeating this optimization process many iterations, we shall get an image combining the content and style from the content image and style image. An example result is shown in Figure 1.
+**Training.** The first Neural Style Transfer Algorithm is characterized as an optimization problem. Starting with a noise image, one feeds this image to the pre-train VGG net and calculate the style loss and content loss between this image and the style and content image respectively, then backpropagates the gradient all the way back to this noise image to push it closer to our target image. Repeating this optimization process many iterations, we shall get an image combining the content and style from the content image and style image. An example result is shown in Figure 2.
 
 **Drawbacks.** This opening paper shows the a fantastic application of CNNs. Yet it tackles this problem by an optimization process, so it's inefficient and can't be applied in real world such as a phone APP. Also, why Gram Matrix can capture style of an image is kind of a myth to be revealed.
+
+## Reference
+[1] Gatys L A, Ecker A S, Bethge M. A neural algorithm of artistic style[J]. arXiv preprint arXiv:1508.06576, 2015.
+[2] Johnson J, Alahi A, Fei-Fei L. Perceptual losses for real-time style transfer and super-resolution[J]. arXiv preprint arXiv:1603.08155, 2016.
+[3] Li, Yanghao, et al. "Demystifying Neural Style Transfer." arXiv preprint arXiv:1701.01036 (2017).
+[4] Gatys, Leon A., et al. "Preserving color in neural artistic style transfer." arXiv preprint arXiv:1606.05897 (2016).
+[5] Gatys, Leon A., et al. "Controlling Perceptual Factors in Neural Style Transfer." arXiv preprint arXiv:1611.07865 (2016).
+[6] Dumoulin, Vincent, Jonathon Shlens, and Manjunath Kudlur. "A learned representation for artistic style." (2017).
+[7] Huang, Xun, and Serge Belongie. "Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization." arXiv preprint arXiv:1703.06868 (2017).
