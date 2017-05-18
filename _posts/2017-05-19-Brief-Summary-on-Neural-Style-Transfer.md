@@ -25,3 +25,14 @@ The opening paper [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1
 $$L_{content}(\vec(p),\vec(x),l) = \frac{1}{2}\sum_{i,j}(F_{ij}^2 - P_{ij}^2)^2$$
 
 In which $$\vec{p}$$ and $$\vec{x}$$ are the original image and the generated image. $$F$$ and $$P$$ are their feature maps from the pre-trained VGG net in layer $$l$$.
+
+**Capturing Image Style.** Image style is a ill-posed definition. It's even hard to give a specific definition verbally. An intuition is that the style of a painting(or a painter) should be irrelevant to content as well as location, so one might use a statistics over the whole feature map to represent the style of an image. This introduces the Gram Matrix which is defined as:
+
+$$G_{ij}^l = \sum_{k}F_{ik}^lF_{jk}^l$$
+
+Given a $C \times H \times W$ feature map. Its corresponding Gram Matrix is a $$C \times C$$ matrix, with $$C_{ij}$$ computed as the element-wise product and summation across feature map in channel $$i$$ and channel $$j$$. So it can be interpreted as the correlation between feature map $$F_i$$ and $$F_j$$.
+
+We define the style loss between two images as a weighted sum of the mean square errors between their Gram Matrix computed in layer $$l_1, l_2, ..., l_n$$.
+
+$$E_l = \frac{1}{4N_l^2M_l^2}\sum_{i,j}(G_{ij}^l - A_{ij}^l)^2$$
+$$L_{style}(\vec{a},\vec{x}) = \sum_{l=0}{l}w_lE_l$$
