@@ -32,8 +32,12 @@ $$G_{ij}^l = \sum_{k}F_{ik}^lF_{jk}^l$$
 
 Given a $$C \times H \times W$$ feature map. Its corresponding Gram Matrix is a $$C \times C$$ matrix, with $$C_{ij}$$ computed as the element-wise product and summation across feature map in channel $$i$$ and channel $$j$$. So it can be interpreted as the correlation between feature map $$F_i$$ and $$F_j$$.
 
-We define the style loss between two images as a weighted sum of the mean square errors between their Gram Matrix computed in layer $$l_1, l_2, ..., l_n$$.
+We define the style loss as a weighted sum of the mean square errors between the Gram Matrices computed in layer $$l_1, l_2, ..., l_n$$.
 
 $$E_l = \frac{1}{4N_l^2M_l^2}\sum_{i,j}(G_{ij}^l - A_{ij}^l)^2$$
 
 $$L_{style}(\vec{a},\vec{x}) = \sum_{l=0}^{l}w_lE_l$$
+
+**Training.** The first Neural Style Transfer Algorithm is characterized as an optimization problem. Starting with a noise image, one feeds this image to the pre-train VGG net and calculate the style loss and content loss between this image and the style and content image respectively, then backpropagates the gradient all the way back to this noise image to push it closer to our target image. Repeating this optimization process many iterations, we shall get an image combining the content and style from the content image and style image. An example result is shown in Figure 1.
+
+**Drawbacks.** This opening paper shows the a fantastic application of CNNs. Yet it tackles this problem by an optimization process, so it's inefficient and can't be applied in real world such as a phone APP. Also, why Gram Matrix can capture style of an image is kind of a myth to be revealed.
