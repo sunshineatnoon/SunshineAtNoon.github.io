@@ -20,8 +20,8 @@ The opening paper [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1
 
 **Task.** In neural style transfer, one provides two images, a content image (left in Figure 1) and a style image (middle in Figure 1). Then the style transfer algorithm combines the style of the style image and content of the content image to generate a new image(right in Figure 1). This requires the separately capture of image content and style.
 
-**Capturing Image Content.** CNNs are known brilliant feature extractors. It captures low-level pixel information in shallow layers as well as high-level semantic information in deep layers. So to capture the image content information, it's sufficient to use the feature maps by CNNs to represent image content. So we can define the content loss as:
+**Capturing Image Content.** CNNs are known as brilliant feature extractors. It captures low-level pixel information in shallow layers as well as high-level semantic information in deep layers. So to capture the image content information, it's sufficient to use the feature maps by CNNs to represent image content. Thus we define the content loss as the mean square distance between the feature maps:
 
-<img src="/assets/posts/2017-05-19-a-brief-summary-on-neural-style-transfer/2.png" height="50">
+$$L_content(\vec(p),\vec(x),l) = \frac{1}{2}\sum_{i,j}(F_ij^2 - P_ij^2)^2$$
 
-In which $$\vec{p}$$ and $$\vec{x}$$ are the original image and the image that is generated.
+In which $$\vec{p}$$ and $$\vec{x}$$ are the original image and the generated image. $F$ and $P$ are their feature maps from the pre-trained VGG net in layer $l$.
