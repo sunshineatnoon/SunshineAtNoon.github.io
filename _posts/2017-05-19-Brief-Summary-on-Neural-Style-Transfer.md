@@ -7,7 +7,7 @@ tags:
   - Neural Style Transfer
 ---
 <figure>
-    <img src="/assets/posts/2017-05-19-a-brief-summary-on-neural-style-transfer/Development.png"  />
+    <img src="/assets/posts/2017-05-19-a-brief-summary-on-neural-style-transfer/Development.png"  height="200"/>
     <figcaption>Figure 1 A Brief Sketch about the Development of Neural Style Transfer in Recent Years.</figcaption>
 </figure>
 
@@ -46,11 +46,19 @@ $$L_{style}(\vec{a},\vec{x}) = \sum_{l=0}^{l}w_lE_l$$
 
 **Drawbacks.** This opening paper shows the a fantastic application of CNNs. Yet it tackles this problem by an optimization process, so it's inefficient and can't be applied in real world such as a phone APP. Also, why Gram Matrix can capture style of an image is kind of a myth to be revealed.
 
+## Feed-Forward Style Transfer
+<figure>
+    <img src="/assets/posts/2017-05-19-a-brief-summary-on-neural-style-transfer/FeedForward.png"  />
+    <figcaption>Figure 3 Network Architecture of Feed-Forward Style Transfer</figcaption>
+</figure>
+
+One issue about neural style transfer is that it needs many iterative optimization process to generate an image. Johnson et al. trained a network to complete the style transfer task. Their network architecture is shown in Figure 3. Using the same style and content loss as the opening paper, their transformer network receives a content image and generate a target image, this target image is then fed into the pre-trained VGG net to compute the style and content loss. Gradient from these two losses were back-propagated into the generated image and then used to train the transformer network. When testing, one only needs to input the content image into the transformer network to get a transferred image. Thus the transfer task can be completed within one feed forward other than many feed-forward and backward processes. 
+
 ## Reference
-[1] Gatys L A, Ecker A S, Bethge M. A neural algorithm of artistic style[J]. arXiv preprint arXiv:1508.06576, 2015.
-[2] Johnson J, Alahi A, Fei-Fei L. Perceptual losses for real-time style transfer and super-resolution[J]. arXiv preprint arXiv:1603.08155, 2016.
-[3] Li, Yanghao, et al. "Demystifying Neural Style Transfer." arXiv preprint arXiv:1701.01036 (2017).
-[4] Gatys, Leon A., et al. "Preserving color in neural artistic style transfer." arXiv preprint arXiv:1606.05897 (2016).
-[5] Gatys, Leon A., et al. "Controlling Perceptual Factors in Neural Style Transfer." arXiv preprint arXiv:1611.07865 (2016).
-[6] Dumoulin, Vincent, Jonathon Shlens, and Manjunath Kudlur. "A learned representation for artistic style." (2017).
-[7] Huang, Xun, and Serge Belongie. "Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization." arXiv preprint arXiv:1703.06868 (2017).
+1. Gatys L A, Ecker A S, Bethge M. A neural algorithm of artistic style[J]. arXiv preprint arXiv:1508.06576, 2015.
+2. Johnson J, Alahi A, Fei-Fei L. Perceptual losses for real-time style transfer and super-resolution[J]. arXiv preprint arXiv:1603.08155, 2016.
+3. Li, Yanghao, et al. "Demystifying Neural Style Transfer." arXiv preprint arXiv:1701.01036 (2017).
+4. Gatys, Leon A., et al. "Preserving color in neural artistic style transfer." arXiv preprint arXiv:1606.05897 (2016).
+5. Gatys, Leon A., et al. "Controlling Perceptual Factors in Neural Style Transfer." arXiv preprint arXiv:1611.07865 (2016).
+6. Dumoulin, Vincent, Jonathon Shlens, and Manjunath Kudlur. "A learned representation for artistic style." (2017).
+7. Huang, Xun, and Serge Belongie. "Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization." arXiv preprint arXiv:1703.06868 (2017).
