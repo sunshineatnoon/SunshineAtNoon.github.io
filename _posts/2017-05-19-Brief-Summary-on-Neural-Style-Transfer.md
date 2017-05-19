@@ -69,17 +69,17 @@ where $$\mu_{F^l}^i$$ and $$\sigma_{F^l}^i$$ are the mean and standard deviation
 </figure>
 
 ## Multi-style Transfer
-Although fast neural style transfer accelerate the speed of Neural Style Transfer, one has to train a transformer network for each style. [Dumoulin et al.] observed that the parameters $$\gamma$$ and $$\beta$$ in the [Instance Normalization](https://arxiv.org/abs/1607.08022) layer can shift and scale an activation $$z$$ specific to painting style $$s$$. Conventional Instance Normalization can be represented as :
+Although fast neural style transfer accelerate the speed of Neural Style Transfer, one has to train a transformer network for each style. [Dumoulin et al.](https://arxiv.org/pdf/1610.07629.pdf) observed that the parameters $$\gamma$$ and $$\beta$$ in the [Instance Normalization](https://arxiv.org/abs/1607.08022) layer can shift and scale an activation $$z$$ specific to painting style $$s$$. Conventional Instance Normalization can be represented as :
 
 $$z = {\gamma}(\frac{x - \mu}{\sigma}) + {\beta}$$
 
 where $$x$$ is the feature map of the input content image from layer l, $$\mu$$ and $$\sigma$$ are $$x$$'s mean and standard deviation taken across spatial axes. $$\gamma$$ and $$\beta$$ are learned parameters to shift and scale this feature map.
 
-While in the proposed method which was called Conditional Instance Normalization, $$\gamma$$ and $$\beta$$ are expanded to $$N\timesC$$ matrix, with $$N$$ represents the number of styles and $$C$$ represents the channel number. To normalize $$x$$ to a specific style $$s$$, one just normalize $$x$$ as:
+While in the proposed method which was called Conditional Instance Normalization, $$\gamma$$ and $$\beta$$ are expanded to $$N \times C$$ matrix, with $$N$$ represents the number of styles and $$C$$ represents the channel number. To normalize $$x$$ to a specific style $$s$$, one just normalize $$x$$ as:
 
 $$z = {\gamma}_s(\frac{x - \mu}{\sigma}) + {\beta}_s$$
 
-where $${\gamma}_s$$ and $${\beta}_s$$ is the $$s^th$$ row of $$\gamma$$ and $$beta$$, specializing to represent style $$s$$. The process can be figured below:
+where $${\gamma}_s$$ and $${\beta}_s$$ is the $$s^{th}$$ row of $$\gamma$$ and $$beta$$, specializing to represent style $$s$$. The process can be figured below:
 
 <figure>
     <img src="/assets/posts/2017-05-19-a-brief-summary-on-neural-style-transfer/CIN.png"  />
@@ -90,11 +90,11 @@ This paper confirms the observation from [Demystify Neural Style Transfer](#demy
 
 ## Arbitrary Style Transfer
 
-A farther step towards Multi-style transfer is arbitrary style transfer. Although conditional instance normalization can enable a transformer network to learn multiple styles, the transformer network's capability has to increase as the number of styles it captures. A super goal of style transfer is that given a content image as well as a style image, one can get the transferred image within a single feed-forward process without a pre-trained transformer network on this style. [Xun et al.] proposed Adaptive Instance Normalization to achieve this. What we know from [Multi-style Transfer](#multi-style-transfer) is that the $$\gamma$$ and $$\beta$$ in the Instance Normalization layer can shift and scale an activation $$z$$ specific to painting style $$s$$. So why not just shift and scale the content image's feature map to align with the style image in the training process ? This Adaptive Instance Normalization does exactly this:
+A farther step towards Multi-style transfer is arbitrary style transfer. Although conditional instance normalization can enable a transformer network to learn multiple styles, the transformer network's capability has to increase as the number of styles it captures. A super goal of style transfer is that given a content image as well as a style image, one can get the transferred image within a single feed-forward process without a pre-trained transformer network on this style. [Xun et al.](https://arxiv.org/abs/1703.06868) proposed Adaptive Instance Normalization to achieve this. What we know from [Multi-style Transfer](#multi-style-transfer) is that the $$\gamma$$ and $$\beta$$ in the Instance Normalization layer can shift and scale an activation $$z$$ specific to painting style $$s$$. So why not just shift and scale the content image's feature map to align with the style image in the training process ? This Adaptive Instance Normalization does exactly this:
 
 $$AdaIN(x,y) = \sigma(y)(\frac{x-\mu(x)}{\sigma(x)}) + \mu(y)$$
 
-where $$x$$ is the feature map of the input content image. $$\mu(x)$$, $$\mu(y)$$ and $\sigma(x)$$, $$\sigma(y)$$ are the mean and standard deviation of $$x$$ and style image $$y$$.
+where $$x$$ is the feature map of the input content image. $$\mu(x)$$, $$\mu(y)$$ and $$\sigma(x)$$, $$\sigma(y)$$ are the mean and standard deviation of $$x$$ and style image $$y$$.
 
 Their network architecture is slightly different from the feed-forward style transfer and multi-style-transfer transfer. The encoder is composed of few layers of a fixed VGG-19 network. An AdaIN layer is used to perform style transfer in the feature space. A decoder is learned to invert the AdaIN output to the image spaces.
 
@@ -105,7 +105,7 @@ Their network architecture is slightly different from the feed-forward style tra
 
 ## Controllable Style Transfer
 
-The last line of style transfer I would like to go through is style transfer that preserving color or other controllable factors such as brush stroke. I will mainly talk about color preserving, details about other controllable factors can be found in [Preserving color in neural artistic style transfer](https://arxiv.org/abs/1611.07865). Color preserving style transfer means to preserve the color in content image while transfer the texture style from the style image to the content image. There are two approaches proposed by [Gatys et al.](https://arxiv.org/abs/1606.05897). The first one is that for the style image $$S$$, first use color histogram matching algorithm to generate a new style image $$S'$$ which matches the color histogram of the content image. Then use $$S'$$ as the style image and perform conventional neural style transfer algorithm with content image $$C$$. The other approach is to perform style transfer only in the luminance channel, then concatenate generated luminance channel with I and Q channel from the content image. Results are shown in Figure 7. From my own experience, the luminance-only style transfer performs better than the histogram matching algorithm since the latter one relies on how histogram matching algorithm works.
+The last line of style transfer I would like to go through is style transfer that preserving color or other controllable factors such as brush stroke. I will mainly talk about color preserving, details about other controllable factors can be found in [Preserving color in neural artistic style transfer](https://arxiv.org/abs/1611.07865). Color preserving style transfer means to preserve the color in content image while transfer the texture style from the style image to the content image. There are two approaches proposed by [Gatys et al.](https://arxiv.org/abs/1606.05897). The first one is that for the style image $$S$$ , first use color histogram matching algorithm to generate a new style image $$S'$$ which matches the color histogram of the content image. Then use $$S'$$ as the style image and perform conventional neural style transfer algorithm with content image $$C$$. The other approach is to perform style transfer only in the luminance channel, then concatenate generated luminance channel with I and Q channel from the content image. Results are shown in Figure 7. From my own experience, the luminance-only style transfer performs better than the histogram matching algorithm since the latter one relies on how histogram matching algorithm works.
 
 <figure>
     <img src="/assets/posts/2017-05-19-a-brief-summary-on-neural-style-transfer/colorPreserving.png"  />
