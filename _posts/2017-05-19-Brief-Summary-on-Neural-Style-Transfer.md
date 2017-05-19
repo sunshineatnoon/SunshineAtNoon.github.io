@@ -2,6 +2,7 @@
 title: 'A Brief Summary on Neural Style Transfer'
 date: 2017-05-19
 permalink: /posts/2017/05/blog-post-1/
+comments: true
 tags:
   - Computer Vision
   - Neural Style Transfer
