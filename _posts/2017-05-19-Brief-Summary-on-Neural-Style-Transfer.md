@@ -95,6 +95,8 @@ Another interesting paper is by [Chen et al.](https://arxiv.org/abs/1703.09210).
     <img src="/assets/posts/2017-05-19-a-brief-summary-on-neural-style-transfer/styleBank.png"  />
     <figcaption>Figure 6 Network Architecture of Styles Bank.</figcaption>
 </figure>
+
+An image $$I$$ is fed into the auto-encoder $$\varepsilon$$ to get feature map $$F$$. $$F$$ is then convolved with each filter bank $$K_i$$ to get new feature maps $$\tilde{F_i}$$ specific to style $$i$$. Those feature maps are then fed into the decoder $$D$$ to get all transferred images. To train the auto-encoder as well as styles bank, two losses are utilized. One is the perceptual loss same as [Feed-Forward Style Transfer](#feed-forward-style-transfer), the other is the MSE loss of image reconstruction. This significantly reduce parameters needed for each style, from a whole transformer network to just a convolution filter. Also it supports incremental style addition by fixing the auto-encoder and training new filter specific to the new style from scratch. 
 ## Arbitrary Style Transfer
 
 A farther step towards Multi-style transfer is arbitrary style transfer. Although conditional instance normalization can enable a transformer network to learn multiple styles, the transformer network's capability has to increase as the number of styles it captures. A super goal of style transfer is that given a content image as well as a style image, one can get the transferred image within a single feed-forward process without a pre-trained transformer network on this style. [Xun et al.](https://arxiv.org/abs/1703.06868) proposed Adaptive Instance Normalization to achieve this. What we know from [Multi-style Transfer](#multi-style-transfer) is that the $$\gamma$$ and $$\beta$$ in the Instance Normalization layer can shift and scale an activation $$z$$ specific to painting style $$s$$. So why not just shift and scale the content image's feature map to align with the style image in the training process ? This Adaptive Instance Normalization does exactly this:
@@ -107,16 +109,16 @@ Their network architecture is slightly different from the feed-forward style tra
 
 <figure>
     <img src="/assets/posts/2017-05-19-a-brief-summary-on-neural-style-transfer/AdaIN.png"  />
-    <figcaption>Figure 6 Network Architecture of Arbitrary Style Transfer.</figcaption>
+    <figcaption>Figure 7 Network Architecture of Arbitrary Style Transfer.</figcaption>
 </figure>
 
 ## Controllable Style Transfer
 
-The last line of style transfer I would like to go through is style transfer that preserving color or other controllable factors such as brush stroke. I will mainly talk about color preserving, details about other controllable factors can be found in [Preserving color in neural artistic style transfer](https://arxiv.org/abs/1611.07865). Color preserving style transfer means to preserve the color in content image while transfer the texture style from the style image to the content image. There are two approaches proposed by [Gatys et al.](https://arxiv.org/abs/1606.05897). The first one is that for the style image $$S$$ , first use color histogram matching algorithm to generate a new style image $$S'$$ which matches the color histogram of the content image. Then use $$S'$$ as the style image and perform conventional neural style transfer algorithm with content image $$C$$. The other approach is to perform style transfer only in the luminance channel, then concatenate generated luminance channel with I and Q channel from the content image. Results are shown in Figure 7. From my own experience, the luminance-only style transfer performs better than the histogram matching algorithm since the latter one relies on how histogram matching algorithm works.
+The last line of style transfer I would like to go through is style transfer that preserving color or other controllable factors such as brush stroke. I will mainly talk about color preserving, details about other controllable factors can be found in [Preserving color in neural artistic style transfer](https://arxiv.org/abs/1611.07865). Color preserving style transfer means to preserve the color in content image while transfer the texture style from the style image to the content image. There are two approaches proposed by [Gatys et al.](https://arxiv.org/abs/1606.05897). The first one is that for the style image $$S$$ , first use color histogram matching algorithm to generate a new style image $$S'$$ which matches the color histogram of the content image. Then use $$S'$$ as the style image and perform conventional neural style transfer algorithm with content image $$C$$. The other approach is to perform style transfer only in the luminance channel, then concatenate generated luminance channel with I and Q channel from the content image. Results are shown in Figure 8. From my own experience, the luminance-only style transfer performs better than the histogram matching algorithm since the latter one relies on how histogram matching algorithm works.
 
 <figure>
     <img src="/assets/posts/2017-05-19-a-brief-summary-on-neural-style-transfer/colorPreserving.png"  />
-    <figcaption>Figure 7 Results of Color Preserving Style Transfer.</figcaption>
+    <figcaption>Figure 8 Results of Color Preserving Style Transfer.</figcaption>
 </figure>
 
 ## References
@@ -127,3 +129,4 @@ The last line of style transfer I would like to go through is style transfer tha
 5. Gatys, Leon A., et al. "Controlling Perceptual Factors in Neural Style Transfer." arXiv preprint arXiv:1611.07865 (2016).
 6. Dumoulin, Vincent, Jonathon Shlens, and Manjunath Kudlur. "A learned representation for artistic style." (2017).
 7. Huang, Xun, and Serge Belongie. "Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization." arXiv preprint arXiv:1703.06868 (2017).
+8. Chen, Dongdong, et al. "Stylebank: An explicit representation for neural image style transfer." arXiv preprint arXiv:1703.09210 (2017).
