@@ -89,6 +89,12 @@ where $${\gamma}_s$$ and $${\beta}_s$$ is the $$s^{th}$$ row of $$\gamma$$ and $
 
 This paper confirms the observation from [Demystify Neural Style Transfer](#demystify-neural-style-ransfer) that the the Instance Normalization (A specific process of Batch Normalization when batch size equals to 1) statistics can indeed represent a style.
 
+Another interesting paper is by [Chen et al.](https://arxiv.org/abs/1703.09210). They trained a feed-forward style transfer network on multiple styles by using Styles Bank. A style bank is a composition of multiple convolutional filters, with each corresponds explicitly to a style. To transfer an image into a specific style, the corresponding filter bank is operated on top of the intermediate feature embedding produced by a single auto-encoder. Their network architecture is shown in Figure 6:
+
+<figure>
+    <img src="/assets/posts/2017-05-19-a-brief-summary-on-neural-style-transfer/styleBank.png"  />
+    <figcaption>Figure 6 Network Architecture of Styles Bank.</figcaption>
+</figure>
 ## Arbitrary Style Transfer
 
 A farther step towards Multi-style transfer is arbitrary style transfer. Although conditional instance normalization can enable a transformer network to learn multiple styles, the transformer network's capability has to increase as the number of styles it captures. A super goal of style transfer is that given a content image as well as a style image, one can get the transferred image within a single feed-forward process without a pre-trained transformer network on this style. [Xun et al.](https://arxiv.org/abs/1703.06868) proposed Adaptive Instance Normalization to achieve this. What we know from [Multi-style Transfer](#multi-style-transfer) is that the $$\gamma$$ and $$\beta$$ in the Instance Normalization layer can shift and scale an activation $$z$$ specific to painting style $$s$$. So why not just shift and scale the content image's feature map to align with the style image in the training process ? This Adaptive Instance Normalization does exactly this:
