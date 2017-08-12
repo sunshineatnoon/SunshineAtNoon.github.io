@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "SunshineAtNoon's Website"
+title                    : "Xueting Li's Website"
 title_separator          : "-"
 name                     : &name "Xueting Li"
 description              : &description "Carpe Diem"
@@ -82,7 +82,7 @@ author:
   bio              : "Mainly interested in Computer Vision & Deep Learning"
   location         : "China"
   employer         :
-  googlescholar    : "http://scholar.google.com/this-is-a-test"
+  #googlescholar    : "http://scholar.google.com/this-is-a-test"
   email            :
   uri              :
   bitbucket        :
@@ -97,7 +97,7 @@ author:
   instagram        :
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/testaccount"
+  #orcid            : "http://orcid.org/testaccount"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
