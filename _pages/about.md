@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-This is Xueting Li’s home on the web!
+I am currently a first-year PhD student in the [Vision and Learning Lab](http://vllab.ucmerced.edu/) at University of California, Merced supervised by [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/). Before coming UC Merced, I received my M.S. degree and B.S. degree from Tsinghua University (THU) and Beijing University of Posts and Telecommunications (BUPT) on 2013 and 2016 respectively.
