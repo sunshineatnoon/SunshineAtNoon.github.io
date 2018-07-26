@@ -8,4 +8,4 @@ paperurl: 'https://arxiv.org/abs/1802.06474'
 citation: 'A Closed-form Solution to Photorealistic Image Stylization, Yijun Li , Ming-Yu Liu , Xueting Li , Ming-Hsuan Yang , Jan Kautz '
 ---
 
-A Closed-form Solution to Photorealistic Image Stylization, Yijun Li , Ming-Yu Liu , **Xueting Li** , Ming-Hsuan Yang , Jan Kautz. [[Paper]](https://arxiv.org/abs/1802.06474) [[Code]](https://github.com/NVIDIA/FastPhotoStyle)
+[[Paper]](https://arxiv.org/abs/1802.06474) [[Code]](https://github.com/NVIDIA/FastPhotoStyle)
