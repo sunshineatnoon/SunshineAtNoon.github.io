@@ -1,0 +1,11 @@
+---
+title: "Learning Linear Transformations for Fast Arbitrary Style Transfer"
+collection: publications
+permalink: /publication/2018-8-14-lst
+date: 2018-8-14
+venue: 'Arxiv'
+paperurl: 
+citation: 'Learning Linear Transformations for Fast Arbitrary Style Transfer, Xueting Li , Sifei Liu , Jan Kautz , Ming-Hsuan Yang'
+---
+
+[[Paper]](https://arxiv.org/abs/1802.06474)
