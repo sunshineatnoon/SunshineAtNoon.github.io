@@ -32,6 +32,9 @@ Learning Linear Transformations for Fast Arbitrary Style Transfer, <b>Xueting Li
 <br>
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/web_icon.png" width="20" height="20" hspace="5" >
 <span><a href="https://news.developer.nvidia.com/new-ai-style-transfer-algorithm-allows-users-to-create-millions-of-artistic-combinations/">news</a></span>
+<br>
+<img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
+<span><a href="https://github.com/sunshineatnoon/LinearStyleTransfer">code</a></span>
 </td>
 
 </tr>
