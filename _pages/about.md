@@ -19,9 +19,10 @@ I am currently a second-year PhD student in the [Vision and Learning Lab](http:/
   <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/lst-teser.png" alt="">
 </figure> 
 
+<br>
+
 Learning Linear Transformations for Fast Arbitrary Style Transfer, **Xueting Li** , Sifei Liu , Jan Kautz , Ming-Hsuan Yang. [[Paper](https://arxiv.org/abs/1808.04537v1)] [[News](https://news.developer.nvidia.com/new-ai-style-transfer-algorithm-allows-users-to-create-millions-of-artistic-combinations/)]
 
-<br>
 <br>
 <br>
 <br>
