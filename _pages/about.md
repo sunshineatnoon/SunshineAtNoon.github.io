@@ -24,7 +24,11 @@ I am currently a second-year PhD student in the [Vision and Learning Lab](http:/
 </td>
 
 <td >
-Learning Linear Transformations for Fast Arbitrary Style Transfer, <b>Xueting Li</b> , Sifei Liu , Jan Kautz , Ming-Hsuan Yang.<a href="https://arxiv.org/abs/1808.04537v1">[Paper]</a><a href="https://news.developer.nvidia.com/new-ai-style-transfer-algorithm-allows-users-to-create-millions-of-artistic-combinations/">[News]</a>
+Learning Linear Transformations for Fast Arbitrary Style Transfer, <b>Xueting Li</b> , Sifei Liu , Jan Kautz , Ming-Hsuan Yang.
+<ul>
+  <li><a href="https://arxiv.org/abs/1808.04537v1">[Paper]</a></li>
+  <li><a href="https://news.developer.nvidia.com/new-ai-style-transfer-algorithm-allows-users-to-create-millions-of-artistic-combinations/">[News]</a></li>
+</ul>
 </td>
 
 </tr>
@@ -36,9 +40,16 @@ Learning Linear Transformations for Fast Arbitrary Style Transfer, <b>Xueting Li
 </td>
 
 <td >
-A Closed-form Solution to Photorealistic Image Stylization, Yijun Li , Ming-Yu Liu , <b>Xueting Li</b> , Ming-Hsuan Yang , Jan Kautz. European Conference on Computer Vision (ECCV), 2018. <a href="https://arxiv.org/abs/1802.06474">[Paper]</a><a href="https://github.com/NVIDIA/FastPhotoStyle">[Code]</a>
+A Closed-form Solution to Photorealistic Image Stylization, Yijun Li , Ming-Yu Liu , <b>Xueting Li</b> , Ming-Hsuan Yang , Jan Kautz. European Conference on Computer Vision (ECCV), 2018. 
+
+<ul>
+  <li><a href="https://arxiv.org/abs/1802.06474">[Paper]</a></li>
+  <li><a href="https://github.com/NVIDIA/FastPhotoStyle">[Code]</a></li>
+</ul>
+
 </td>
 
 </tr>
 
 </table>
+
