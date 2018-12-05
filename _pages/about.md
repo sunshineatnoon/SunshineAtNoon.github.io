@@ -20,8 +20,6 @@ I am currently a second-year PhD student in the [Vision and Learning Lab](http:/
   <figcaption>Feels good to be right all the time.</figcaption>
 </figure> 
 
-And now we're going to shift things to the **right align**. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there --- Hey guy! Way to rock that right side. I don't care what the left aligned image says, you look great. Don't let anyone else tell you differently.
-
 Learning Linear Transformations for Fast Arbitrary Style Transfer, **Xueting Li** , Sifei Liu , Jan Kautz , Ming-Hsuan Yang. [[Paper](https://arxiv.org/abs/1808.04537v1)] [[News](https://news.developer.nvidia.com/new-ai-style-transfer-algorithm-allows-users-to-create-millions-of-artistic-combinations/)]
 
 <figure style="width: 300px" class="align-left">
