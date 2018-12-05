@@ -21,14 +21,17 @@ I am currently a second-year PhD student in the [Vision and Learning Lab](http:/
 
 Learning Linear Transformations for Fast Arbitrary Style Transfer,<b>Xueting Li</b> , Sifei Liu , Jan Kautz , Ming-Hsuan Yang.<a href="https://arxiv.org/abs/1808.04537v1">[Paper]</a><a href="https://news.developer.nvidia.com/new-ai-style-transfer-algorithm-allows-users-to-create-millions-of-artistic-combinations/">[News]</a>
 
-<!-- please do not remove this line -->
+<!-- end slipsum code -->
 
-<div style="display:none;">
-<a href="http://slipsum.com">lorem ipsum</a></div>
+</p>
+
+<img width="300" src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/close-teser.png" />
+<p>
+<!-- start slipsum code -->
+
+A Closed-form Solution to Photorealistic Image Stylization, Yijun Li , Ming-Yu Liu , <b>Xueting Li</b> , Ming-Hsuan Yang , Jan Kautz. European Conference on Computer Vision (ECCV), 2018. <a href="https://arxiv.org/abs/1802.06474">[Paper]</a><a href="https://github.com/NVIDIA/FastPhotoStyle">[Code]</a>
 
 <!-- end slipsum code -->
 
 </p>
 
-
-- A Closed-form Solution to Photorealistic Image Stylization, Yijun Li , Ming-Yu Liu , **Xueting Li** , Ming-Hsuan Yang , Jan Kautz. European Conference on Computer Vision (ECCV), 2018. [[Paper](https://arxiv.org/abs/1802.06474)] [[Code](https://github.com/NVIDIA/FastPhotoStyle)]
