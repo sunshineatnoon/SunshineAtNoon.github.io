@@ -15,6 +15,11 @@ I am currently a second-year PhD student in the [Vision and Learning Lab](http:/
 
 ## Publications
 
+<div class="clearfix float-my-children">
+   <img src="//upload.wikimedia.org/wikipedia/commons/f/fa/Honor%C3%A9_de_Balzac_(Stories_By_Foreign_Authors).png" width=100>
+   <div>some text here</div>
+</div>
+
 - Learning Linear Transformations for Fast Arbitrary Style Transfer, **Xueting Li** , Sifei Liu , Jan Kautz , Ming-Hsuan Yang. [[Paper](https://arxiv.org/abs/1808.04537v1)] [[News](https://news.developer.nvidia.com/new-ai-style-transfer-algorithm-allows-users-to-create-millions-of-artistic-combinations/)]
 
 - A Closed-form Solution to Photorealistic Image Stylization, Yijun Li , Ming-Yu Liu , **Xueting Li** , Ming-Hsuan Yang , Jan Kautz. European Conference on Computer Vision (ECCV), 2018. [[Paper](https://arxiv.org/abs/1802.06474)] [[Code](https://github.com/NVIDIA/FastPhotoStyle)]
