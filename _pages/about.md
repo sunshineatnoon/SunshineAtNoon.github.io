@@ -15,23 +15,30 @@ I am currently a second-year PhD student in the [Vision and Learning Lab](http:/
 
 ## Publications
 
-<img width="300" src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/lst-teser.png" />
-<p>
-<!-- start slipsum code -->
+<table width="500px" height="100%" border="0">
 
+<tr>
+
+<td>
+<img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/lst-teser.png" width="350"/>
+</td>
+
+<td >
 Learning Linear Transformations for Fast Arbitrary Style Transfer,<b>Xueting Li</b> , Sifei Liu , Jan Kautz , Ming-Hsuan Yang.<a href="https://arxiv.org/abs/1808.04537v1">[Paper]</a><a href="https://news.developer.nvidia.com/new-ai-style-transfer-algorithm-allows-users-to-create-millions-of-artistic-combinations/">[News]</a>
+</td>
 
-<!-- end slipsum code -->
+</tr>
 
-</p>
+<tr>
 
-<img width="300" src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/close-teser.png" />
-<p>
-<!-- start slipsum code -->
+<td>
+<img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/close-teser.png" width="350" />
+</td>
 
+<td >
 A Closed-form Solution to Photorealistic Image Stylization, Yijun Li , Ming-Yu Liu , <b>Xueting Li</b> , Ming-Hsuan Yang , Jan Kautz. European Conference on Computer Vision (ECCV), 2018. <a href="https://arxiv.org/abs/1802.06474">[Paper]</a><a href="https://github.com/NVIDIA/FastPhotoStyle">[Code]</a>
+</td>
 
-<!-- end slipsum code -->
+</tr>
 
-</p>
-
+</table>
