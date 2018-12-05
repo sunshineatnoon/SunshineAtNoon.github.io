@@ -32,10 +32,4 @@ Learning Linear Transformations for Fast Arbitrary Style Transfer, **Xueting Li*
   <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/close-teser.png" alt="">
 </figure> 
 
-<br>
-<br>
-
 A Closed-form Solution to Photorealistic Image Stylization, Yijun Li , Ming-Yu Liu , **Xueting Li** , Ming-Hsuan Yang , Jan Kautz. European Conference on Computer Vision (ECCV), 2018. [[Paper](https://arxiv.org/abs/1802.06474)] [[Code](https://github.com/NVIDIA/FastPhotoStyle)]
-
-<br>
-<br>
