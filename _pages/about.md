@@ -15,12 +15,12 @@ I am currently a second-year PhD student in the [Vision and Learning Lab](http:/
 
 ## Publications
 
-<table width="500px" height="100%" border="0">
+<table >
 
-<tr>
+<tr style="border-collapse: collapse; border: none;">
 
 <td>
-<img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/lst-teser.png" width="350"/>
+<img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/lst-teser.png" width="800"/>
 </td>
 
 <td >
@@ -29,10 +29,10 @@ Learning Linear Transformations for Fast Arbitrary Style Transfer,<b>Xueting Li<
 
 </tr>
 
-<tr>
+<tr style="border-collapse: collapse; border: none;">
 
 <td>
-<img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/close-teser.png" width="350" />
+<img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/close-teser.png" width="800" />
 </td>
 
 <td >
