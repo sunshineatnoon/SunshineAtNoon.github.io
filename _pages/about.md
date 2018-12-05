@@ -25,6 +25,8 @@ Learning Linear Transformations for Fast Arbitrary Style Transfer, **Xueting Li*
 <br>
 <br>
 <br>
+<br>
+<br>
 
 <figure style="width: 300px" class="align-left">
   <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/close-teser.png" alt="">
