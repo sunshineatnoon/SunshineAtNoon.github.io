@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a second-year PhD student in the [Vision and Learning Lab](http://vllab.ucmerced.edu/) at University of California, Merced supervised by [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/). Before coming UC Merced, I received my M.S. degree and B.S. degree from Tsinghua University (THU) and Beijing University of Posts and Telecommunications (BUPT) on 2016 and 2013 respectively. Here is my [CV](https://drive.google.com/file/d/1ndjbuysGBJMMTpmIK3hTD_HfXZVsJzaH/view?usp=sharing).
+I am currently a second-year PhD student in the [Vision and Learning Lab](http://vllab.ucmerced.edu/) at University of California, Merced supervised by [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/). Before coming UC Merced, I received my M.S. degree and B.S. degree from Tsinghua University (THU) and Beijing University of Posts and Telecommunications (BUPT) on 2016 and 2013 respectively. Here is my [CV](https://drive.google.com/file/d/10xJcb2E5axZ5VDKXqZJRApmkMP6DVOYI/view?usp=sharing).
 
 ## News
 - **2018.5 ~ 2018.11:** Research intern at NVIDIA LPR group.
@@ -24,7 +24,7 @@ I am currently a second-year PhD student in the [Vision and Learning Lab](http:/
 </td>
 
 <td style="border-collapse: collapse; border: none;">
-Learning Linear Transformations for Fast Arbitrary Style Transfer, <b>Xueting Li</b> , Sifei Liu , Jan Kautz , Ming-Hsuan Yang.
+Learning Linear Transformations for Fast Arbitrary Style Transfer, <b>Xueting Li*</b> , Sifei Liu* , Jan Kautz , Ming-Hsuan Yang.
 <br>
 
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
