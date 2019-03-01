@@ -20,15 +20,32 @@ I am currently a second-year PhD student in the [Vision and Learning Lab](http:/
 <tr style="border-collapse: collapse; border: none;">
 
 <td style="border-collapse: collapse; border: none;">
+<img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/affordance.png" width="800"/>
+</td>
+
+<td style="border-collapse: collapse; border: none;">
+Putting Humans in a Scene: Learning Affordance in 3D Indoor Environments, <b>Xueting Li</b> , Sifei Liu , Kihwan Kim, Xiaolong Wang, Ming-Hsuan Yang, Jan Kautz. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019.
+<br>
+
+<img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
+<span><a href="">[coming soon...]</a></span>
+<br>
+</td>
+
+</tr>
+
+<tr style="border-collapse: collapse; border: none;">
+
+<td style="border-collapse: collapse; border: none;">
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/lst-teser.png" width="800"/>
 </td>
 
 <td style="border-collapse: collapse; border: none;">
-Learning Linear Transformations for Fast Arbitrary Style Transfer, <b>Xueting Li*</b> , Sifei Liu* , Jan Kautz , Ming-Hsuan Yang.
+Learning Linear Transformations for Fast Arbitrary Style Transfer, <b>Xueting Li*</b> , Sifei Liu* , Jan Kautz , Ming-Hsuan Yang. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019.
 <br>
 
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-<span><a href="https://arxiv.org/abs/1808.04537v1">paper</a></span>
+<span><a href="https://arxiv.org/abs/1808.04537v1">arxiv paper</a></span>
 <br>
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/web_icon.png" width="20" height="20" hspace="5" >
 <span><a href="https://news.developer.nvidia.com/new-ai-style-transfer-algorithm-allows-users-to-create-millions-of-artistic-combinations/">news</a></span>
