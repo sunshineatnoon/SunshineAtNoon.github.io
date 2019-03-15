@@ -24,7 +24,7 @@ I am currently a second-year PhD student in the [Vision and Learning Lab](http:/
 </td>
 
 <td style="border-collapse: collapse; border: none;">
-Putting Humans in a Scene: Learning Affordance in 3D Indoor Environments, <b>Xueting Li*</b> , Sifei Liu , Kihwan Kim, Xiaolong Wang, Ming-Hsuan Yang, Jan Kautz. CVPR, 2019. 
+Putting Humans in a Scene: Learning Affordance in 3D Indoor Environments, <b>Xueting Li</b> , Sifei Liu , Kihwan Kim, Xiaolong Wang, Ming-Hsuan Yang, Jan Kautz. CVPR, 2019. 
 <br>
 
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
