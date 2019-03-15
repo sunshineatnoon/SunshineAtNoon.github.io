@@ -14,6 +14,25 @@ I am currently a second-year PhD student in the [Vision and Learning Lab](http:/
 - **2018.5 ~ 2018.11:** Research intern at NVIDIA LPR group.
 
 ## Publications
+<table style="border: none; border-collapse: collapse;" border="0"> 
+
+<tr style="border-collapse: collapse; border: none;">
+
+<td style="border-collapse: collapse; border: none;">
+<img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/affordance-teser.jpg" width="800"/>
+</td>
+
+<td style="border-collapse: collapse; border: none;">
+Putting Humans in a Scene: Learning Affordance in 3D Indoor Environments, <b>Xueting Li*</b> , Sifei Liu , Kihwan Kim, Xiaolong Wang, Ming-Hsuan Yang, Jan Kautz. 
+<br>
+
+<img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
+<span><a href="https://arxiv.org/abs/1903.05690v1">arxiv paper</a></span>
+<br>
+<img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/web_icon.png" width="20" height="20" hspace="5" >
+<span><a href="https://sites.google.com/view/3d-affordance-cvpr19">project</a></span>
+<br>
+</td>
 
 <table style="border: none; border-collapse: collapse;" border="0"> 
 
