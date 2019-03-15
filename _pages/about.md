@@ -17,7 +17,7 @@ I am currently a second-year PhD student in the [Vision and Learning Lab](http:/
 <table style="border: none; border-collapse: collapse;" border="0"> 
 
 
-<tr style="border-collapse: collapse; border: none;">
+<tr style="border-collapse: separate; border-spacing:5em;">
 
 <td style="border-collapse: collapse; border: none;">
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/affordance-teser.jpg" width="800"/>
@@ -37,7 +37,7 @@ Putting Humans in a Scene: Learning Affordance in 3D Indoor Environments, <b>Xue
 </tr>
 
 
-<tr style="border-collapse: collapse; border: none;">
+<tr style="border-collapse: separate; border-spacing:5em;">
 
 <td style="border-collapse: collapse; border: none;">
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/lst-teser.png" width="800"/>
@@ -61,7 +61,7 @@ Learning Linear Transformations for Fast Arbitrary Style Transfer, <b>Xueting Li
 
 
 
-<tr style="border-collapse: collapse; border: none;">
+<tr style="border-collapse: separate; border-spacing:5em;">
 
 <td style="border-collapse: collapse; border: none;">
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/close-teser.png" width="800" />
