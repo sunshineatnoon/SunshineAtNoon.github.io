@@ -16,6 +16,7 @@ I am currently a second-year PhD student in the [Vision and Learning Lab](http:/
 ## Publications
 <table style="border: none; border-collapse: collapse;" border="0"> 
 
+
 <tr style="border-collapse: collapse; border: none;">
 
 <td style="border-collapse: collapse; border: none;">
@@ -23,7 +24,7 @@ I am currently a second-year PhD student in the [Vision and Learning Lab](http:/
 </td>
 
 <td style="border-collapse: collapse; border: none;">
-Putting Humans in a Scene: Learning Affordance in 3D Indoor Environments, <b>Xueting Li*</b> , Sifei Liu , Kihwan Kim, Xiaolong Wang, Ming-Hsuan Yang, Jan Kautz. 
+Putting Humans in a Scene: Learning Affordance in 3D Indoor Environments, <b>Xueting Li*</b> , Sifei Liu , Kihwan Kim, Xiaolong Wang, Ming-Hsuan Yang, Jan Kautz. CVPR, 2019. 
 <br>
 
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
@@ -33,8 +34,8 @@ Putting Humans in a Scene: Learning Affordance in 3D Indoor Environments, <b>Xue
 <span><a href="https://sites.google.com/view/3d-affordance-cvpr19">project</a></span>
 <br>
 </td>
+</tr>
 
-<table style="border: none; border-collapse: collapse;" border="0"> 
 
 <tr style="border-collapse: collapse; border: none;">
 
@@ -43,7 +44,7 @@ Putting Humans in a Scene: Learning Affordance in 3D Indoor Environments, <b>Xue
 </td>
 
 <td style="border-collapse: collapse; border: none;">
-Learning Linear Transformations for Fast Arbitrary Style Transfer, <b>Xueting Li*</b> , Sifei Liu* , Jan Kautz , Ming-Hsuan Yang. 
+Learning Linear Transformations for Fast Arbitrary Style Transfer, <b>Xueting Li*</b> , Sifei Liu* , Jan Kautz , Ming-Hsuan Yang. CVPR, 2019.
 <br>
 
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
@@ -57,6 +58,8 @@ Learning Linear Transformations for Fast Arbitrary Style Transfer, <b>Xueting Li
 </td>
 
 </tr>
+
+
 
 <tr style="border-collapse: collapse; border: none;">
 
@@ -74,10 +77,12 @@ A Closed-form Solution to Photorealistic Image Stylization, Yijun Li , Ming-Yu L
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
 <span><a href="https://github.com/NVIDIA/FastPhotoStyle">code</a></span>
 
-
 </td>
 
 </tr>
+
+
+
 
 </table>
 
