@@ -31,7 +31,7 @@ Putting Humans in a Scene: Learning Affordance in 3D Indoor Environments, <b>Xue
 <span><a href="https://arxiv.org/abs/1903.05690v1">arxiv paper</a></span>
 <br>
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/web_icon.png" width="20" height="20" hspace="5" >
-<span><a href="https://sites.google.com/view/3d-affordance-cvpr19">project</a></span>
+<span><a href="https://sites.google.com/view/3d-affordance-cvpr19">project page</a></span>
 <br>
 </td>
 </tr>
@@ -51,7 +51,7 @@ Learning Linear Transformations for Fast Arbitrary Style Transfer, <b>Xueting Li
 <span><a href="https://arxiv.org/abs/1808.04537v1">arxiv paper</a></span>
 <br>
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/web_icon.png" width="20" height="20" hspace="5" >
-<span><a href="https://news.developer.nvidia.com/new-ai-style-transfer-algorithm-allows-users-to-create-millions-of-artistic-combinations/">news</a></span>
+<span><a href="https://sites.google.com/view/3d-affordance-cvpr19">project page</a></span>
 <br>
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
 <span><a href="https://github.com/sunshineatnoon/LinearStyleTransfer">code</a></span>
