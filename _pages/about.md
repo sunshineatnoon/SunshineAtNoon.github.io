@@ -60,7 +60,9 @@ Sifei Liu, <b>Xueting Li</b> , Varun Jampani, Shalini De Mello, Jan Kautz.
 <br>
 </td>
 </tr>
+</table>
 
+<table>
 <tr style="border-collapse: separate; border-spacing:30em;">
 
 <td style="border-collapse: collapse; border: none;">
@@ -82,7 +84,9 @@ Putting Humans in a Scene: Learning Affordance in 3D Indoor Environments. CVPR, 
 </td>
 </tr>
 
+</table>
 
+<table>
 <tr style="border-collapse: separate; border-spacing:30em;">
 
 <td style="border-collapse: collapse; border: none;">
@@ -108,7 +112,9 @@ Learning Linear Transformations for Fast Arbitrary Style Transfer. CVPR, 2019.
 </tr>
 
 
+</table>
 
+<table>
 <tr style="border-collapse: separate; border-spacing:30em;">
 
 <td style="border-collapse: collapse; border: none;">
