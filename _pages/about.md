@@ -39,7 +39,9 @@ Joint-task Self-supervised Learning for Temporal Correspondence. NeurIPS, 2019.
 <br>
 </td>
 </tr>
+</table>
 
+<table>
 <tr style="border-collapse: separate; border-spacing:30em;">
 
 <td style="border-collapse: collapse; border: none;">
