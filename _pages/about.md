@@ -8,10 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a second-year PhD student in the [Vision and Learning Lab](http://vllab.ucmerced.edu/) at University of California, Merced supervised by [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/). Before coming UC Merced, I received my M.S. degree and B.S. degree from Tsinghua University (THU) and Beijing University of Posts and Telecommunications (BUPT) on 2016 and 2013 respectively. Here is my [CV](https://drive.google.com/file/d/10xJcb2E5axZ5VDKXqZJRApmkMP6DVOYI/view?usp=sharing).
+I am currently a third-year PhD student in the [Vision and Learning Lab](http://vllab.ucmerced.edu/) at University of California, Merced supervised by [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/). Before coming UC Merced, I received my M.S. degree and B.S. degree from Tsinghua University (THU) and Beijing University of Posts and Telecommunications (BUPT) on 2016 and 2013 respectively. Here is my [CV](https://drive.google.com/file/d/10xJcb2E5axZ5VDKXqZJRApmkMP6DVOYI/view?usp=sharing).
 
 ## News
 - **2018.5 ~ 2018.11:** Research intern at NVIDIA LPR group.
+- **2019.6 ~ now:** Research intern at NVIDIA LPR group.
 
 ## Publications
 
