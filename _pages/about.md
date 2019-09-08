@@ -19,14 +19,16 @@ I am currently a third-year PhD student in the [Vision and Learning Lab](http://
 
 <table style="border: none; border-collapse: collapse;" border="0"> 
 
-<tr style="border-collapse: separate; border-spacing:10em;">
+<tr style="border-collapse: separate; border-spacing:30em;">
 
 <td style="border-collapse: collapse; border: none;">
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/joint.png" width="800"/>
 </td>
 
 <td style="border-collapse: collapse; border: none;">
-Joint-task Self-supervised Learning for Temporal Correspondence, <b>Xueting Li*</b> , Sifei Liu* , Shalini De Mello, Xiaolong Wang, Jan Kautz, Ming-Hsuan Yang. Neurips, 2019. 
+Joint-task Self-supervised Learning for Temporal Correspondence. NeurIPS, 2019.
+  
+<b>Xueting Li*</b> , Sifei Liu* , Shalini De Mello, Xiaolong Wang, Jan Kautz, Ming-Hsuan Yang. 
 <br>
 
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
@@ -38,14 +40,16 @@ Joint-task Self-supervised Learning for Temporal Correspondence, <b>Xueting Li*<
 </td>
 </tr>
 
-<tr style="border-collapse: separate; border-spacing:10em;">
+<tr style="border-collapse: separate; border-spacing:30em;">
 
 <td style="border-collapse: collapse; border: none;">
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/sgpn.png" width="800"/>
 </td>
 
 <td style="border-collapse: collapse; border: none;">
-Learning Propagation for Arbitrarily-structured Data, Sifei Liu, <b>Xueting Li</b> , Varun Jampani, Shalini De Mello, Jan Kautz. ICCV, 2019. 
+Learning Propagation for Arbitrarily-structured Data. ICCV, 2019.
+  
+Sifei Liu, <b>Xueting Li</b> , Varun Jampani, Shalini De Mello, Jan Kautz.  
 <br>
 
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
@@ -55,14 +59,16 @@ Learning Propagation for Arbitrarily-structured Data, Sifei Liu, <b>Xueting Li</
 </td>
 </tr>
 
-<tr style="border-collapse: separate; border-spacing:10em;">
+<tr style="border-collapse: separate; border-spacing:30em;">
 
 <td style="border-collapse: collapse; border: none;">
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/affordance-teser.jpg" width="800"/>
 </td>
 
 <td style="border-collapse: collapse; border: none;">
-Putting Humans in a Scene: Learning Affordance in 3D Indoor Environments, <b>Xueting Li</b> , Sifei Liu , Kihwan Kim, Xiaolong Wang, Ming-Hsuan Yang, Jan Kautz. CVPR, 2019. 
+Putting Humans in a Scene: Learning Affordance in 3D Indoor Environments. CVPR, 2019. 
+  
+<b>Xueting Li</b> , Sifei Liu , Kihwan Kim, Xiaolong Wang, Ming-Hsuan Yang, Jan Kautz.  
 <br>
 
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
@@ -75,14 +81,16 @@ Putting Humans in a Scene: Learning Affordance in 3D Indoor Environments, <b>Xue
 </tr>
 
 
-<tr style="border-collapse: separate; border-spacing:10em;">
+<tr style="border-collapse: separate; border-spacing:30em;">
 
 <td style="border-collapse: collapse; border: none;">
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/lst-teser.png" width="800"/>
 </td>
 
 <td style="border-collapse: collapse; border: none;">
-Learning Linear Transformations for Fast Arbitrary Style Transfer, <b>Xueting Li*</b> , Sifei Liu* , Jan Kautz , Ming-Hsuan Yang. CVPR, 2019.
+Learning Linear Transformations for Fast Arbitrary Style Transfer. CVPR, 2019.
+  
+<b>Xueting Li*</b> , Sifei Liu* , Jan Kautz , Ming-Hsuan Yang. 
 <br>
 
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
@@ -99,14 +107,16 @@ Learning Linear Transformations for Fast Arbitrary Style Transfer, <b>Xueting Li
 
 
 
-<tr style="border-collapse: separate; border-spacing:10em;">
+<tr style="border-collapse: separate; border-spacing:30em;">
 
 <td style="border-collapse: collapse; border: none;">
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/close-teser.png" width="800" />
 </td>
 
 <td style="border-collapse: collapse; border: none;">
-A Closed-form Solution to Photorealistic Image Stylization, Yijun Li , Ming-Yu Liu , <b>Xueting Li</b> , Ming-Hsuan Yang , Jan Kautz. European Conference on Computer Vision (ECCV), 2018. 
+A Closed-form Solution to Photorealistic Image Stylization. ECCV, 2018.
+
+Yijun Li , Ming-Yu Liu , <b>Xueting Li</b> , Ming-Hsuan Yang , Jan Kautz.
 <br>
 
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
