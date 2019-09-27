@@ -32,7 +32,7 @@ Joint-task Self-supervised Learning for Temporal Correspondence. NeurIPS, 2019.
 <br>
 
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-<span><a href="https://sunshineatnoon.github.io/">arxiv paper (coming soon)</a></span>
+<span><a href="https://arxiv.org/abs/1909.11895">arxiv paper</a></span>
 <br>
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/web_icon.png" width="20" height="20" hspace="5" >
 <span><a href="https://sites.google.com/view/uvc2019/">project page</a></span>
@@ -53,7 +53,7 @@ Sifei Liu, <b>Xueting Li</b> , Varun Jampani, Shalini De Mello, Jan Kautz.
 <br>
 
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-<span><a href="https://sunshineatnoon.github.io/">arxiv paper (coming soon)</a></span>
+<span><a href="https://arxiv.org/abs/1909.11237">arxiv paper</a></span>
 <br>
 <br>
 </td>
