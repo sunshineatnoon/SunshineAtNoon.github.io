@@ -18,7 +18,27 @@ I am mainly interested in self-supervised learning and 3D computer vision proble
 - **2019.12:** I received the [NVIDIA Graduate Fellowship](https://www.nvidia.com/en-us/research/graduate-fellowships/). Thanks NVIDIA!
 
 ## Publications
+<tr style="border-collapse: separate; border-spacing:30em;">
 
+<td style="border-collapse: collapse; border: none;">
+<img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/umr.gif" width="800"/>
+</td>
+
+<td style="border-collapse: collapse; border: none;">
+Self-supervised Single-view 3D Reconstruction via Semantic Consistency. ECCV, 2020.
+  
+<b>Xueting Li*</b> ,Sifei Liu, Kihwan Kim, Shalini De Mello, Varun Jampani, Ming-Hsuan Yang, Jan Kautz
+<br>
+
+<img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
+<span><a href="https://arxiv.org/abs/2003.06473">arxiv paper</a></span>
+<br>
+<img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/web_icon.png" width="20" height="20" hspace="5" >
+<span><a href="https://sites.google.com/nvidia.com/unsup-mesh-2020">project page</a></span>
+<br>
+</td>
+
+</tr>
 
 <table style="border: none; border-collapse: collapse;" border="0"> 
 
