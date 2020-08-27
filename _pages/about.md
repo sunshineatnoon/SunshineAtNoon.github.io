@@ -18,6 +18,8 @@ I am mainly interested in self-supervised learning and 3D computer vision proble
 - **2019.12:** I received the [NVIDIA Graduate Fellowship](https://www.nvidia.com/en-us/research/graduate-fellowships/). Thanks NVIDIA!
 
 ## Publications
+<table style="border: none; border-collapse: collapse;" border="0">
+  
 <tr style="border-collapse: separate; border-spacing:30em;">
 
 <td style="border-collapse: collapse; border: none;">
@@ -40,7 +42,7 @@ Self-supervised Single-view 3D Reconstruction via Semantic Consistency. ECCV, 20
 
 </tr>
 
-<table style="border: none; border-collapse: collapse;" border="0"> 
+ 
 
 <tr style="border-collapse: separate; border-spacing:30em;">
 
