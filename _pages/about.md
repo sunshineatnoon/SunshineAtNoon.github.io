@@ -29,7 +29,7 @@ I am mainly interested in self-supervised learning and 3D computer vision proble
 <td style="border-collapse: collapse; border: none;">
 Self-supervised Single-view 3D Reconstruction via Semantic Consistency. ECCV, 2020.
   
-<b>Xueting Li*</b> ,Sifei Liu, Kihwan Kim, Shalini De Mello, Varun Jampani, Ming-Hsuan Yang, Jan Kautz
+<b>Xueting Li</b> ,Sifei Liu, Kihwan Kim, Shalini De Mello, Varun Jampani, Ming-Hsuan Yang, Jan Kautz
 <br>
 
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
