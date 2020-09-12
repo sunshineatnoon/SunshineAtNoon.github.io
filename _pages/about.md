@@ -38,6 +38,8 @@ Self-supervised Single-view 3D Reconstruction via Semantic Consistency. ECCV, 20
 <img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/web_icon.png" width="20" height="20" hspace="5" >
 <span><a href="https://sites.google.com/nvidia.com/unsup-mesh-2020">project page</a></span>
 <br>
+<img src="https://raw.githubusercontent.com/sunshineatnoon/sunshineatnoon.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
+<span><a href="https://github.com/NVlabs/UMR">code</a></span>
 </td>
 
 </tr>
