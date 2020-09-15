@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a third-year PhD student in the [Vision and Learning Lab](http://vllab.ucmerced.edu/) at University of California, Merced supervised by [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/). Before coming UC Merced, I received my M.S. degree and B.S. degree from Tsinghua University (THU) and Beijing University of Posts and Telecommunications (BUPT) on 2016 and 2013 respectively. Here is my [CV](https://drive.google.com/file/d/1ZftKsdUeMMakHDo0X6AgkX9NwkDbjdxW/view?usp=sharing). 
+I am currently a fourth-year PhD student in the [Vision and Learning Lab](http://vllab.ucmerced.edu/) at University of California, Merced supervised by [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/). Before coming UC Merced, I received my M.S. degree and B.S. degree from Tsinghua University (THU) and Beijing University of Posts and Telecommunications (BUPT) on 2016 and 2013 respectively. Here is my [CV](https://drive.google.com/file/d/1ZftKsdUeMMakHDo0X6AgkX9NwkDbjdxW/view?usp=sharing). 
 
 I am mainly interested in self-supervised learning and 3D computer vision problems. My research has been partly supported by the NVIDIA Graduate Fellowship.
 
