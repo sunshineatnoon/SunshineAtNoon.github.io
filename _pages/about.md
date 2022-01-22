@@ -8,14 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a fourth-year PhD student in the [Vision and Learning Lab](http://vllab.ucmerced.edu/) at University of California, Merced supervised by [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/). Before coming UC Merced, I received my M.S. degree and B.S. degree from Tsinghua University (THU) and Beijing University of Posts and Telecommunications (BUPT) on 2016 and 2013 respectively. Here is my [CV](https://drive.google.com/file/d/1ZftKsdUeMMakHDo0X6AgkX9NwkDbjdxW/view?usp=sharing). 
+I am a research scientist at Nvidia Research in Santa Clara, US. I received my Ph.D. student from University of California in 2021, Merced supervised by [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/). Before coming UC Merced, I received my M.S. degree and B.S. degree from Tsinghua University (THU) and Beijing University of Posts and Telecommunications (BUPT) on 2016 and 2013 respectively. Here is my [CV](https://drive.google.com/file/d/1ZftKsdUeMMakHDo0X6AgkX9NwkDbjdxW/view?usp=sharing). 
 
-I am mainly interested in self-supervised learning and 3D computer vision problems. My research has been partly supported by the NVIDIA Graduate Fellowship.
-
-## News
-- **2018.5 ~ 2018.11:** Research intern at NVIDIA LPR group.
-- **2019.6 ~ now:** Research intern at NVIDIA LPR group.
-- **2019.12:** I received the [NVIDIA Graduate Fellowship](https://www.nvidia.com/en-us/research/graduate-fellowships/). Thanks NVIDIA!
+I am mainly interested in self-supervised learning and 3D computer vision problems. I received [NVIDIA Graduate Fellowship](https://www.nvidia.com/en-us/research/graduate-fellowships/) in 2020 and [Google PhD fellowship](https://research.google/outreach/phd-fellowship/recipients/) in 2021.
 
 ## Publications
 <table style="border: none; border-collapse: collapse;" border="0">
