@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a research scientist at Nvidia Research. I received my Ph.D. student from University of California, Merced supervised by [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/). Before coming to UC Merced, I obtained my M.S. degree and B.S. degree from Tsinghua University (THU) and Beijing University of Posts and Telecommunications (BUPT) on 2016 and 2013 respectively. Here is my [CV](https://drive.google.com/file/d/1ZftKsdUeMMakHDo0X6AgkX9NwkDbjdxW/view?usp=sharing). 
+I am a research scientist at Nvidia Research. I received my Ph.D. from University of California, Merced supervised by [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/). Before coming to UC Merced, I obtained my M.S. degree and B.S. degree from Tsinghua University (THU) and Beijing University of Posts and Telecommunications (BUPT) on 2016 and 2013 respectively. Here is my [CV](https://drive.google.com/file/d/1ZftKsdUeMMakHDo0X6AgkX9NwkDbjdxW/view?usp=sharing). 
 
 I am mainly interested in self-supervised learning and 3D computer vision problems. I received [NVIDIA Graduate Fellowship](https://www.nvidia.com/en-us/research/graduate-fellowships/) in 2020 and [Google PhD fellowship](https://research.google/outreach/phd-fellowship/recipients/) in 2021.
 
