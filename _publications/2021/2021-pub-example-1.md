@@ -4,7 +4,6 @@ date:           2020-10-12 00:01:00 +0800
 pub:            "Neural Information Processing Systems (NeurIPS)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       "2021"
 
 abstract: >-

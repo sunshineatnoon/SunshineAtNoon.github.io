@@ -4,7 +4,7 @@ date:           2018-10-12 00:01:00 +0800
 pub:            "European Conference on Computer Vision (ECCV)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
+pub_last:       ' <span class="badge badge-pill badge-publication badge-success"></span>'
 pub_date:       "2018"
 
 abstract: >-

@@ -1,11 +1,9 @@
 ---
 title:          "Scraping Textures from Natural Images for Synthesis and Editing"
 date:           2022-10-12 00:01:00 +0800
-selected:       true
 pub:            "European Conference on Computer Vision (ECCV)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       "2022"
 
 abstract: >-

@@ -5,7 +5,6 @@ selected:       true
 pub:            "Computer Vision and Pattern Recognition (CVPR)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       "2019"
 
 abstract: >-
