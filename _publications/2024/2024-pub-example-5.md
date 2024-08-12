@@ -2,9 +2,10 @@
 title:          "Pyramid Diffusion for Fine 3D Large Scene Generation"
 date:           2024-10-12 00:01:00 +0800
 pub:            "European Conference on Computer Vision (ECCV)"
+selected:       true
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-#pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
+pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'
 pub_date:       "2024"
 
 abstract: >-
